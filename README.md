@@ -1,0 +1,6 @@
+- How to use transform translate to center elements
+- How to show/hide elements with a button click
+- Smooth open/close animation transitions
+- How to style an ugly modal.
+- CSS position fixed
+- Using CSS pointer events to prevent click events
