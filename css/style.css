@@ -16,8 +16,23 @@
    background-color: white; /* so it will stand out from the overlay we put on the screen */
    width: 500px;
    max-width: 80%; /* so it won't be larger than 80% of the screen */
-   padding: 0.5%;
+   
 }
+
+.modal-header {
+   padding: 10px 15px;
+   display: flex; /* so items will line side by side - "Example Modal" and the "X" */
+   justify-content: space-between; /* space out content */
+   align-items: center; 
+   border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+   font-size: 1.25rem;
+   font-weight: bold;
+}
+
+
 
 
 
