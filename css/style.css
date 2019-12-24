@@ -32,6 +32,13 @@
    font-weight: bold;
 }
 
+.modal-header .close-button {
+   cursor: pointer; /* the cursor changes so ppl know they can click on it */
+   border: none; /* remove the border */
+   outline: none; /* remove the outline */
+   background: none;
+}
+
 
 
 
