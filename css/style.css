@@ -45,6 +45,28 @@
    padding: 10px 15px;
 }
 
+#overlay {
+   position: fixed; /* so it will follow us around */
+   /* opacity: 0; /* so it won't show up */
+   /* to make the modal fill the screen: */
+   top: 0;
+   bottom: 0;
+   right: o;
+   left: 0;
+   background-color: rgba(0, 0, 0, .5); /* 50% opaque */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
