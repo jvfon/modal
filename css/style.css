@@ -54,10 +54,10 @@
    right: o;
    left: 0;
    background-color: rgba(0, 0, 0, .5); /* 50% opaque */
-   pointer-events: none;
+   pointer-events: none; /* so the overlay won't capture the click events */
 }
 
-
+/* we need to   */
 
 
 
