@@ -13,7 +13,7 @@
    border: 1px solid black;
    border-radius: 10px;
    z-index: 10; /* so the modal stays above everything */
-   background-color: white; /* so it will stand out from the overlay we put on the screen */
+   background-color: white; /* so he modal will show through the overlay */
    width: 500px;
    max-width: 80%; /* so it won't be larger than 80% of the screen */
    
@@ -54,11 +54,16 @@
    right: o;
    left: 0;
    background-color: rgba(0, 0, 0, .5); /* 50% opaque */
-   pointer-events: none; /* so the overlay won't capture the click events */
+   pointer-events: none; /*  when the overlay is invisible, the overlay won't capture the click events */
+      /* we are able to click on the "close" button when the overlay is not active */
 }
 
-/* we need to   */
-
+/* we need to have an id when the overlay is active */
+#overlay.active {
+   /* inside here we want to capture pointer events */
+   pointer-events: all;
+   opacity: 1;
+}
 
 
 
