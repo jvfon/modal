@@ -9,13 +9,16 @@
    <script defer src="js/script.js"></script>
 </head>
 <body>
-   <button>Open Modal</button>
+   <button data-modal-target="#modal" >Open Modal</button>
+   <!-- "data-modal-target" a selector to point to the modal we want to open-->
+   <!-- allow us to open different modals on the same page with different buttons -->
    <div class = "modal" id = "modal">
       <div class = "modal-header">
          <div class = "title">Example Modal</div>
-         <button class = "close-button">&times;</button> 
+         <button data-close-button class = "close-button">&times;</button> 
          <!-- it's easier to center the symbol than text ('X') -->
          <!-- text will change with the font you use and will also scale up/down -->
+         <!-- creating new class to work with JS only data-close-button -->
 
       </div>
       <div class = "modal-body">
