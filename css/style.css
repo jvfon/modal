@@ -15,8 +15,7 @@
    z-index: 10; /* so the modal stays above everything */
    background-color: white; /* so he modal will show through the overlay */
    width: 500px;
-   max-width: 80%; /* so it won't be larger than 80% of the screen */
-   
+   max-width: 80%; /* so it won't be larger than 80% of the screen */  
 }
 
 .modal-header {
