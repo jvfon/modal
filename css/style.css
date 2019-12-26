@@ -50,7 +50,7 @@
    /* to make the modal fill the screen: */
    top: 0;
    bottom: 0;
-   right: o;
+   right: 0;
    left: 0;
    background-color: rgba(0, 0, 0, .5); /* 50% opaque */
    pointer-events: none; /*  when the overlay is invisible, the overlay won't capture the click events */
