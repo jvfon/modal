@@ -7,8 +7,10 @@
    /* to center the modal */
    top: 50%; /* top and left 50% represent the 50% of the screen */
    left: 50%; /* the top left of the modal will be at the center of the screen */
-   transform: translate(-50% -50%); /* -50% in the x and y direction to center the modal */
+   transform: translate(-50% -50%) scale(0); /* -50% in the x and y direction to center the modal */
    /* 50% of the size of the container as oposed to the size of the screen */
+   /* scale(0) hides the modal by default */
+   transition: 200ms ease-in-out;
 
    border: 1px solid black;
    border-radius: 10px;
@@ -16,6 +18,11 @@
    background-color: white; /* so he modal will show through the overlay */
    width: 500px;
    max-width: 80%; /* so it won't be larger than 80% of the screen */  
+}
+
+.modal.active {
+   transform: translate(-50% -50%) scale(1); 
+   /* using scale() to smoothly transition the modal in and out from the browser */
 }
 
 .modal-header {
@@ -48,6 +55,8 @@
    position: fixed; /* so it will follow us around */
    /* opacity: 0; /* so it won't show up */
    /* to make the modal fill the screen: */
+   opacity: 0;
+   transition: 200ms ease-in-out;
    top: 0;
    bottom: 0;
    right: 0;
@@ -63,6 +72,8 @@
    pointer-events: all;
    opacity: 1;
 }
+
+
 
 
 
