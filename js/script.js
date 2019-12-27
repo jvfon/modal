@@ -1,2 +1,3 @@
 // selecting modal open button
-const 
+// as if there are multiple ways to select a modal buttons */
+const openModalButtons = document.querySelectorAll('[data-modal-]')
