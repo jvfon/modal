@@ -6,3 +6,40 @@
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 // data-close-button to link it with an html button
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
+// select overlay to show and hide and needed
+const overlay = document.getElementById('overlay')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
