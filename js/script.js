@@ -9,7 +9,7 @@ const closeModalButtons = document.querySelectorAll('[data-close-button]')
 // select overlay to show and hide and needed
 const overlay = document.getElementById('overlay')
 
-
+openModalButtons.forEach
 
 
 
