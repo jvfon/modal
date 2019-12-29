@@ -4,3 +4,5 @@
 // data-modal-target will be the button to open the modal
 // anything that has the data-modal-target will be inside the openModalButtons var
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
+// data-close-button to link it with an html button
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
